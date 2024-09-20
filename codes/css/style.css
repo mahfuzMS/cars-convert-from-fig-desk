@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #141414;
+  padding: 2rem;
+}
+
+.car-detals {
+  background-image: url(../../images/header-Background.png);
+  padding: 3rem 2rem;
+  /* margin: 2rem; */
+  border-radius: 1.5rem;
+  height: 70vh;
+}
+
+.navber {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-img {
+  margin-right: 3rem;
+}
+.logo-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  padding: 0.6rem;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.logo-btn p {
+  margin-left: 0.7rem;
+  margin-bottom: 0;
+}
+
+.nav-links ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links ul li {
+  color: #fff;
+}
+.nav-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0 2rem;
+}
+
+.content {
+  margin-top: 58px;
+  margin-left: 4.5rem;
+}
+
+.content h2 {
+  font-size: 57px;
+  color: #fff;
+  width: 400px;
+}
+
+.nav-button {
+  display: flex;
+}
+
+.nav-button .btn {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-top: 2rem;
+  padding: 12px 12px;
+}
+
+.btn h3 {
+  font-size: 18px;
+  margin: 0;
+  /* color: #fff; */
+}
+
+.btn:hover {
+  background: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Fbtn .fa-solid {
+  padding-left: 1rem;
+}
+
+.btn:nth-last-of-type(1) {
+  border: 1px solid #323232;
+  margin-left: 30px;
+}
+
+.btn:nth-last-of-type(1) .fa-solid {
+  padding-right: 20px;
+}
+
+.cars-variety {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cars-detals {
+  background-color: #1e1e1e;
+  height: 243px;
+  width: 400px;
+  position: relative;
+  /* margin: 10px ; */
+  margin-bottom: 10px;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.cars-detals .img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.cars-detals h3 {
+  font-size: 24px;
+  padding: 2rem 2.1rem;
+  width: 10rem;
+}
+.cars-detals p {
+  font-size: 16px;
+  position: absolute;
+  left: 2rem;
+  bottom: 0;
+}
+.cars-detals p span {
+  font-size: 24px;
+}
+
+.cars-detals:hover {
+  color: #fff;
+  background: linear-gradient(to right, #ff001d, #403535);
+}
+.cars-detals:hover .upper-btn button{
+  background-color: #000;
+}
+
+
+
+.upper-btn button {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 15px;
+}
+
+/* .upper-btn button:hover {
+  background-color: #000;
+} */
+
+.cars-models {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.upper-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow .fa-less-than {
+  margin-right: 3rem;
+}
+
+.arrow i:hover {
+  background-color: red;
+  color: #fff;
+  padding: 5px 7px;
+  border-radius: 10px;
+  font-size: 14px;
+  transition: none;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.middle-section .item {
+  height: 312px;
+  width: 264px;
+}
+
+.item p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.more-detals{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.lower-section{
+    display: flex;
+    justify-content: space-evenly  ;
+    align-items: center;
+    background-color: #f5f5f5;
+    margin: 3rem 0 ;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.lower-section p{
+    font-size: 18px;
+    width: 300px;
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-links a{
+    text-decoration: none;
+    background-color: #fff;
+    color: #282828;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.social-links .fa-twitter{
+    color: #00BEF7;
+}
+.social-links .fa-facebook{
+    color: #0862F7;
+}
+.social-links .fa-youtube{
+    color: #FF0404;
+}
+
+footer{
+    display: flex;
+    background-color: #FF0404;
+    margin-top: 2.5rem;
+    border-radius: 20px;
+    color: #fff;
+    padding: 2.5rem 3rem;
+    justify-content: space-between;
+}
+
+.left-section{
+    flex: 1;
+}
+
+.left-section h2{
+    font-size: 56px;
+}
+
+.left-section p{
+    width: 350px;
+    opacity: 70%;
+}
+
+.footer-btn{
+    position: relative;
+}
+
+.footer-btn button{
+    border: 1px solid #fff;
+    background-color: #ff001d;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 10px;
+    position: relative;
+    bottom: -100px;
+    margin: 0 10px;
+}
+
+.footer-btn button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.right-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.fItem h3{
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.fItem p{
+    font-size: 16px;
+    width: 250px;
+
+}
